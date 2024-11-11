@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .city {
+            background-color: tomato;
+            color: white;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="city">
+        <h2>Muhammad Atha Ananda</h2>
+        <p>235530</p>
+    </div>
+
+    <div class="city">
+        <h2>Mohamad Haziq Dafren</h2>
+        <p>235530</p>
+    </div>
+
+    <div class="city">
+        <h2>Luthfiah Rahmi</h2>
+        <p>235530</p>
+    </div>
+
+    <div class="city">
+        <h2>Nazwa Salsabila Hal</h2>
+        <p>2355301162</p>
+    </div>
+
+    <div class="city">
+        <h2>Siti Solikhah</h2>
+        <p>2355301190</p>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Profiles</title>
+    <style>
+        /* Global styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        /* Card base styling */
+        .card {
+            width: 300px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            background-color: #fff;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .card .card-header {
+            background-color: #D85F6A;
+            color: white;
+            padding: 16px;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .card .card-body {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card p {
+            font-size: 16px;
+            color: #555;
+            margin: 8px 0;
+        }
+
+        .city .card-header {
+            background-color: #FF6F61; /* Tomato red */
+        }
+
+        .kota .card-header {
+            background-color: #7B3F98; /* Purple */
+        }
+
+        /* Responsive layout for smaller screens */
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- City Cards -->
+        <div class="card city">
+            <div class="card-header">
+                <h2>Muhammad Atha Ananda</h2>
+            </div>
+            <div class="card-body">
+                <p>235530</p>
+            </div>
+        </div>
+
+        <div class="card kota">
+            <div class="card-header">
+                <h2>Mohamad Haziq Dafren</h2>
+                <h2>Kelas 2 TI D</h2>
+            </div>
+            <div class="card-body">
+                <p>235530</p>
+            </div>
+        </div>
+
+        <div class="card city">
+            <div class="card-header">
+                <h2>Luthfiah Rahmi</h2>
+            </div>
+            <div class="card-body">
+                <p>235530</p>
+            </div>
+        </div>
+
+        <div class="card city">
+            <div class="card-header">
+                <h2>Nazwa Salsabila Halim</h2>
+                <h2>Kelas 2 TI D</h2>
+            </div>
+            <div class="card-body">
+                <p>2355301162</p>
+            </div>
+        </div>
+
+        <div class="card city">
+            <div class="card-header">
+                <h2>Siti Solikhah</h2>
+            </div>
+            <div class="card-body">
+                <p>2355301190</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
